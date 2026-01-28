@@ -123,39 +123,9 @@ app/google-services.json
 
 5-Activer Cloud Firestore
 
-📁 Structure du projet
-
-MyContact/
-├── app/
-│   ├── src/main/java/com/nada/mycontact/
-│   │   ├── activities/
-│   │   ├── adapters/
-│   │   ├── models/
-│   │   └── utils/
-│   ├── res/
-│   │   ├── layout/
-│   │   ├── drawable/
-│   │   └── values/
-│   └── google-services.json (non inclus)
-├── media/
-│   └── demo.mp4
-└── README.md
-
-🗄️ Structure Firestore
-
-contacts (collection)
-└── {contactId}
-├── firstName : String
-├── lastName : String
-├── phoneNumber : String
-├── email : String
-├── isFavorite : Boolean
-├── isBlocked : Boolean
-├── photoBase64 : String
-├── createdAt : Timestamp
-└── updatedAt : Timestamp
-
 👩‍💻 Auteur
 
  Projet réalisé avec passion par Nada ZIRARI
+
+	
 
