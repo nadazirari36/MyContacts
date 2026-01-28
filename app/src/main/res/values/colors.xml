@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme Colors (iOS-like) -->
+    <color name="primary_dark">#1C1C1E</color>
+    <color name="background_dark">#000000</color>
+    <color name="surface_dark">#1C1C1E</color>
+    <color name="card_dark">#2C2C2E</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8E8E93</color>
+
+    <color name="accent_blue">#0A84FF</color>
+    <color name="favorite_yellow">#FFD60A</color>
+
+    <color name="divider">#38383A</color>
+</resources>

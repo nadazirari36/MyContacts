@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="4dp"
+    app:cardBackgroundColor="@color/card_dark"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <!-- Avatar circulaire -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatarImage"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@color/accent_blue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!-- Initiales (si pas de photo) -->
+        <TextView
+            android:id="@+id/initialsText"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium"
+            app:layout_constraintStart_toStartOf="@id/avatarImage"
+            app:layout_constraintTop_toTopOf="@id/avatarImage" />
+
+        <!-- Nom complet -->
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/text_primary"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_constraintStart_toEndOf="@id/avatarImage"
+            app:layout_constraintEnd_toStartOf="@id/blockedIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!-- Icône bloqué -->
+        <ImageView
+            android:id="@+id/blockedIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_block"
+            android:visibility="gone"
+            android:layout_marginEnd="4dp"
+            app:tint="@android:color/holo_orange_dark"
+            app:layout_constraintEnd_toStartOf="@id/favoriteIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!-- Icône favori -->
+        <ImageView
+            android:id="@+id/favoriteIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_star_filled"
+            android:visibility="gone"
+            app:tint="@color/favorite_yellow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
