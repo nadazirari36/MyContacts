@@ -88,7 +88,7 @@ Compte Google (pour Firebase)
 
 Émulateur Android ou appareil physique (API 24+)
 
-# # 📥 Étapes
+📥 Étapes
 
 Cloner le projet
 git clone https://github.com/nadazirari36/MyContacts.git
@@ -107,7 +107,7 @@ cd MyContact
 ⚠️ Important
 Le fichier google-services.json n’est pas inclus dans ce dépôt pour des raisons de sécurité.
 
-# # 🔧 Étapes
+ 🔧 Étapes
 
 1-Créer un projet sur Firebase Console
 
