@@ -157,5 +157,5 @@ contacts (collection)
 
 👩‍💻 Auteur
 
-<div align="center"> ⭐ Projet réalisé avec passion par Nada ⭐ </div>
+ Projet réalisé avec passion par Nada ZIRARI
 
