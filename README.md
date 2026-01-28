@@ -1,16 +1,16 @@
 📱 MyContact — Application Android de Gestion de Contacts
-📖 Description
+# 📖 Description
 
 MyContact est une application Android moderne de gestion de contacts développée en Java avec Firebase Cloud Firestore.
 Elle propose une interface élégante en Dark Mode, inspirée de l'interface d'applications natives iOS , offrant une expérience utilisateur fluide, intuitive et professionnelle.
 
-🎥 Démonstration vidéo
+# 🎥 Démonstration vidéo
 
 👉 (Ajouter votre vidéo ici)
 
 [▶️ Voir la démonstration vidéo](media/demo.webm)
 
-✨ Fonctionnalités
+# ✨ Fonctionnalités
 🔹 Gestion des contacts (CRUD)
 
 ➕ Ajouter un nouveau contact
@@ -53,7 +53,7 @@ Elle propose une interface élégante en Dark Mode, inspirée de l'interface d'a
 
 📱 Compatible avec toutes tailles d’écran
 
-🛠️ Technologies utilisées
+# 🛠️ Technologies utilisées
 
 Langage : Java
 
@@ -65,7 +65,7 @@ Base de données : Firebase Cloud Firestore
 
 UI : Material Design 3, RecyclerView, ViewBinding
 
-📚 Bibliothèques principales
+# 📚 Bibliothèques principales
 
 // Material Design
 implementation 'com.google.android.material:material:1.11.0'
@@ -77,7 +77,7 @@ implementation 'com.google.firebase:firebase-firestore'
 // Image circulaire
 implementation 'de.hdodenhof:circleimageview:3.1.0'
 
-🚀 Installation et exécution
+# 🚀 Installation et exécution
 ✅ Prérequis
 
 Android Studio (Arctic Fox ou supérieur)
@@ -88,9 +88,9 @@ Compte Google (pour Firebase)
 
 Émulateur Android ou appareil physique (API 24+)
 
-📥 Étapes
+# # 📥 Étapes
 
-# Cloner le projet
+Cloner le projet
 git clone https://github.com/nadazirari36/MyContacts.git
 cd MyContact
 
@@ -102,12 +102,12 @@ cd MyContact
 
 4-Lancer l’application
 
-🔥 Configuration Firebase
+# 🔥 Configuration Firebase
 
 ⚠️ Important
 Le fichier google-services.json n’est pas inclus dans ce dépôt pour des raisons de sécurité.
 
-🔧 Étapes
+# # 🔧 Étapes
 
 1-Créer un projet sur Firebase Console
 
@@ -123,7 +123,7 @@ app/google-services.json
 
 5-Activer Cloud Firestore
 
-👩‍💻 Auteur
+# 👩‍💻 Auteur
 
  Projet réalisé avec passion par Nada ZIRARI
 
